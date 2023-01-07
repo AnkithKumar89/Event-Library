@@ -1,0 +1,15 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2023 18:34:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2023 18:34:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app.eventing:On_event --> click Hello 2023-01-07 18:34:43.485158
+INFO:app.eventing:On_event --> click There! 2023-01-07 18:34:43.486156
+INFO:app.eventing:Trigger_event --> click ['Hello', 'There!'] 2023-01-07 18:34:43.486156
+INFO:app.eventing:Off_event --> click 2023-01-07 18:34:44.040464
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2023 18:34:44] "POST / HTTP/1.1" 200 -
+INFO:app.eventing:On_event --> click Hello 2023-01-07 18:35:25.501033
+INFO:app.eventing:On_event --> click There! 2023-01-07 18:35:25.501033
+INFO:app.eventing:Trigger_event --> click ['Hello', 'There!'] 2023-01-07 18:35:25.502034
+INFO:app.eventing:Off_event --> click 2023-01-07 18:35:25.574315
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2023 18:35:25] "POST / HTTP/1.1" 200 -
