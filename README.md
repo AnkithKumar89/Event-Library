@@ -1,5 +1,12 @@
 # Event-Library
-https://gist.github.com/kapoorji/d400a972bf2b44635533071284b0abf2
+### Eventing Library with MongoDB and Flask-SQLAlchemy
+
+This is a Python-based library for event handling using Flask and Flask-SQLAlchemy. It provides the functionality to register event handlers, trigger events, and remove event handlers. 
+
+In addition, all events triggered (including off) are logged in a MongoDB database with the schema storing the event and its trigger time. The `app.log` file contains all the event logging in the format of `event --> event timestamp`. 
+
+This library can be used for various purposes such as tracking user interactions, monitoring application performance, and more.
+
 
 // Problem statement 
 
